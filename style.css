@@ -8,6 +8,8 @@ body {
     color: #79cdc5; }
     body a:hover h2 {
       color: #79cdc5; }
+  body h1, body h2 {
+    font-weight: 400; }
   body .summary h1 {
     color: #6B5E62;
     padding: 80px 60px;
