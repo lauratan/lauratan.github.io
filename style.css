@@ -1,0 +1,27 @@
+body {
+  padding: 15px;
+  font-family: 'Work Sans', sans-serif; }
+  body a {
+    color: #53b3d7;
+    text-decoration: none; }
+  body a:hover {
+    color: #79cdc5; }
+    body a:hover h2 {
+      color: #79cdc5; }
+  body .name h1 {
+    font-size: 2.5em;
+    color: #3A3335; }
+  body .summary h1 {
+    color: #6B5E62;
+    padding: 80px 60px; }
+  body .summary span {
+    color: #EFB2F4; }
+  body .projects {
+    background-color: #fdfafc;
+    padding: 60px; }
+  body #paw2paw p {
+    font-size: 1.5em; }
+  body .contact {
+    padding: 60px; }
+
+/*# sourceMappingURL=style.css.map */
