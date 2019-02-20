@@ -27,12 +27,9 @@ body {
 			text-align: center;
 			padding: 0 120px 150px 120px;
 		}
-		span {
-			color: #EFB2F4;
-		}
 	}
 	
-	.skills, .projects {
+	.skills, .projects, .contact {
 		background-color: #fdfafc;
 		padding: 60px;
 	}
@@ -47,18 +44,78 @@ body {
 	.experience {
 		padding: 60px;
 	}
-	
-	#paw2paw {
-		p {
-			font-size: 1.5em;
+
+	.education {
+		padding: 60px;
+		#lhl {
+			width: 4%;
+		}
+		#ubc {
+			width: 2.5%;
+			padding: 5px;
+		}
+	}
+	.projects {
+		.date {
+			font-size: 16px;
+		}
+		.details {
+			font-size: 1.25em;
+		}
+		hr {
+			border-width: 2px;
+		}
+		#paw2paw {
+			#paw2paw-btn {
+				color: #53b3d7;
+				width: 220px;
+				height: 40px;
+				border-radius: 5px;
+				margin-bottom: 10px;
+				font-size: 18px;
+			}
+			#paw2paw-btn:hover {
+				background-color:  #53b3d7;
+				color:white;
+			}
+			#paw2paw-btn:focus {
+				outline: none;
+			}
+			.paw2paw-details {
+				display: none;
+				width: 50%;
+				.title {
+					color: #53b3d7;
+				}
+			}
 		}
 	}
 	
 	.contact {
 		padding: 60px;
-		ol {
-			padding-left: 0;
-			font-size: 18px;
+		.me {
+			float: left;
+			padding-right: 15px;
+			img {
+				border-radius: 50%;
+				width: 163px;
+				height: 157px;
+			}
 		}
+		.contact-info {
+			padding-top: 5px;
+			ol {
+				padding-left: 0;
+				font-size: 18px;
+			}
+		}
+	}
+}
+
+footer {
+	p {
+		font-size: 12px;
+		color: #EFB2F4;
+		text-align: center;
 	}
 }

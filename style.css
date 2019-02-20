@@ -19,9 +19,7 @@ body {
   body .summary h2 {
     text-align: center;
     padding: 0 120px 150px 120px; }
-  body .summary span {
-    color: #EFB2F4; }
-  body .skills, body .projects {
+  body .skills, body .projects, body .contact {
     background-color: #fdfafc;
     padding: 60px; }
   body .skills p {
@@ -29,12 +27,54 @@ body {
     font-size: 18px; }
   body .experience {
     padding: 60px; }
-  body #paw2paw p {
-    font-size: 1.5em; }
+  body .education {
+    padding: 60px; }
+    body .education #lhl {
+      width: 4%; }
+    body .education #ubc {
+      width: 2.5%;
+      padding: 5px; }
+  body .projects .date {
+    font-size: 16px; }
+  body .projects .details {
+    font-size: 1.25em; }
+  body .projects hr {
+    border-width: 2px; }
+  body .projects #paw2paw #paw2paw-btn {
+    color: #53b3d7;
+    width: 220px;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 18px; }
+  body .projects #paw2paw #paw2paw-btn:hover {
+    background-color: #53b3d7;
+    color: white; }
+  body .projects #paw2paw #paw2paw-btn:focus {
+    outline: none; }
+  body .projects #paw2paw .paw2paw-details {
+    display: none;
+    width: 50%; }
+    body .projects #paw2paw .paw2paw-details .title {
+      color: #53b3d7; }
   body .contact {
     padding: 60px; }
-    body .contact ol {
-      padding-left: 0;
-      font-size: 18px; }
+    body .contact .me {
+      float: left;
+      padding-right: 15px; }
+      body .contact .me img {
+        border-radius: 50%;
+        width: 163px;
+        height: 157px; }
+    body .contact .contact-info {
+      padding-top: 5px; }
+      body .contact .contact-info ol {
+        padding-left: 0;
+        font-size: 18px; }
+
+footer p {
+  font-size: 12px;
+  color: #EFB2F4;
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */

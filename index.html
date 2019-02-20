@@ -7,10 +7,13 @@
     <link rel=stylesheet href="style.css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 		<link href="https://fonts.googleapis.com/css?family=Work+Sans:300" rel="stylesheet">
-
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script type="text/javascript" src="./public/scripts/app.js"></script>
   </head>
   <body>
+		<!-- TODO: add logo? -->
+		<div class="logo">
+		</div>
     <div class="summary">
 			<h1>Hello I'm <strong>Laura Tan</strong>, a <span class="highlight">full stack web developer</span> based in Vancouver, BC.</h1>
 			<h2>I come from a background in plant biology 🌿 it is still an interest of mine but my passion for solving logic problems/puzzles led me to a career in software development! Motivated by my own improvement and enjoy learning new technologies.</h2>
@@ -42,20 +45,48 @@
     <div class="projects">
 			<h1><strong>Projects</strong></h1>
 			<div id="paw2paw">
-				<a href="https://github.com/lauratan/paw2paw" target="_blank">
-					<h2>Paw 2 Paw</h2>
-				</a>
-				<a href="https://github.com/lauratan/paw2paw" target="_blank">
-					<img src="assets/images/paw2paw-1.gif" alt="paw2paw">
-				</a>
-				<p>Paw 2 Paw is a fullstack pet services platform developed as a final project at Lighthouse Labs.</p>
+				<button id="paw2paw-btn">PAW 2 PAW</button>
+				<div>
+					<a href="https://github.com/lauratan/paw2paw" target="_blank">
+						<img src="assets/images/paw2paw-1.gif" alt="paw2paw">
+					</a>
+				</div>
+				<div class="paw2paw-details">
+					<p class="date">August 2018</p>
+					<p class="details">Paw 2 Paw is a fullstack pet services platform developed as a final project at Lighthouse Labs.
+						A web application for pet owners to find nearby trustworthy pet sitters and for pet lovers to provide their care and service for those in need.
+					</p>
+					<hr>
+					<p class="details"><strong>Stack:</strong> Ruby, Rails, ActiveRecord, ReactJS, PostGreSQL, CSS, Bootstrap, SCSS</p>
+				</div>
 			</div>
 		</div>
-		<div class="contact">
-			<h1>Contact Me!</h1>
-			<ol><a href="mailto:laura.tan108@gmail.com"><i class="far fa-envelope"></i> Email</a></ol>
-			<ol><a href="https://github.com/lauratan" target="_blank"><i class="fab fa-github"></i> Github</a></ol>
-			<ol><a href="https://www.linkedin.com/in/lauraatan" target="_blank"><i class="fab fa-linkedin"></i> Linkedin</a></ol>
+		<div class="education">
+			<h1><strong>Education</strong></h1>
+			<section class="lhl">
+				<h2><img id="lhl" src="./assets/images/lhl.png"/>Lighthouse Labs</h2>
+				<h3>Web Development Bootcamp</h3>
+				<i>June 2018 - August 2018</i>
+			</section>
+			<section class="ubc">
+				<h2><img id="ubc" src="./assets/images/ubc.png"/> University of British Columbia</h2>
+				<h3>Bachelor of Science - Biology</h3>
+				<i>September 2013 - May 2018</i>
+			</section>
 		</div>
-  </body>
+		<div class="contact">
+			<h1><strong>Contact Me!</strong></h1>
+			<div class="me">
+				<img src="./assets/images/me.png" alt="Smiley" />
+			</div>
+			<section class="contact-info">
+				<ol><a href="mailto:laura.tan108@gmail.com"><i class="far fa-envelope"></i> Email</a></ol>
+				<ol><a href="https://github.com/lauratan" target="_blank"><i class="fab fa-github"></i> Github</a></ol>
+				<ol><a href="https://www.linkedin.com/in/lauraatan" target="_blank"><i class="fab fa-linkedin"></i> Linkedin</a></ol>
+			</section>
+		</div>
+	</body>
+	<footer>
+		<p>Made with ♥ </p>
+	</footer>
 </html>
