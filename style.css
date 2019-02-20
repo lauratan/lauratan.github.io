@@ -25,7 +25,8 @@ body {
     background-color: #fdfafc;
     padding: 60px; }
   body .skills p {
-    color: red; }
+    color: red;
+    font-size: 18px; }
   body .experience {
     padding: 60px; }
   body #paw2paw p {
