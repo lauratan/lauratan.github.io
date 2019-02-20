@@ -13,15 +13,27 @@ body {
   body .summary h1 {
     color: #6B5E62;
     padding: 80px 60px;
-    font-weight: 400; }
+    text-align: center; }
+  body .summary .highlight {
+    color: #EFB2F4; }
+  body .summary h2 {
+    text-align: center;
+    padding: 0 120px 150px 120px; }
   body .summary span {
     color: #EFB2F4; }
-  body .projects {
+  body .skills, body .projects {
     background-color: #fdfafc;
+    padding: 60px; }
+  body .skills p {
+    color: red; }
+  body .experience {
     padding: 60px; }
   body #paw2paw p {
     font-size: 1.5em; }
   body .contact {
     padding: 60px; }
+    body .contact ol {
+      padding-left: 0;
+      font-size: 18px; }
 
 /*# sourceMappingURL=style.css.map */
