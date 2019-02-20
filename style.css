@@ -10,6 +10,9 @@ body {
       color: #79cdc5; }
   body h1, body h2 {
     font-weight: 400; }
+  body .section-title {
+    text-decoration-line: underline;
+    text-decoration-color: pink; }
   body .summary h1 {
     color: #6B5E62;
     padding: 80px 60px;
@@ -23,10 +26,16 @@ body {
     background-color: #fdfafc;
     padding: 60px; }
   body .skills p {
-    color: red;
+    color: #53b3d7;
     font-size: 18px; }
   body .experience {
     padding: 60px; }
+    body .experience h2 {
+      font-weight: 100;
+      font-size: 18px;
+      font-style: italic; }
+    body .experience li {
+      font-size: 18px; }
   body .education {
     padding: 60px; }
     body .education #lhl {
@@ -40,22 +49,27 @@ body {
     font-size: 1.25em; }
   body .projects hr {
     border-width: 2px; }
-  body .projects #paw2paw #paw2paw-btn {
-    color: #53b3d7;
+  body .projects #paw2paw, body .projects #jungle, body .projects #chatty {
+    padding-bottom: 20px; }
+  body .projects #jungle-img {
+    width: 53%; }
+  body .projects .project-btn {
+    background-color: #53b3d7;
+    color: white;
     width: 220px;
     height: 40px;
     border-radius: 5px;
     margin-bottom: 10px;
     font-size: 18px; }
-  body .projects #paw2paw #paw2paw-btn:hover {
-    background-color: #53b3d7;
-    color: white; }
-  body .projects #paw2paw #paw2paw-btn:focus {
+  body .projects .project-btn:hover {
+    color: #53b3d7;
+    background-color: white; }
+  body .projects .project-btn:focus {
     outline: none; }
-  body .projects #paw2paw .paw2paw-details {
+  body .projects .paw2paw-details, body .projects .jungle-details, body .projects .chatty-details, body .projects .tweeter-details {
     display: none;
     width: 50%; }
-    body .projects #paw2paw .paw2paw-details .title {
+    body .projects .paw2paw-details .title, body .projects .jungle-details .title, body .projects .chatty-details .title, body .projects .tweeter-details .title {
       color: #53b3d7; }
   body .contact {
     padding: 60px; }
@@ -66,11 +80,9 @@ body {
         border-radius: 50%;
         width: 163px;
         height: 157px; }
-    body .contact .contact-info {
-      padding-top: 5px; }
-      body .contact .contact-info ol {
-        padding-left: 0;
-        font-size: 18px; }
+    body .contact .contact-info ol {
+      padding-left: 0;
+      font-size: 18px; }
 
 footer p {
   font-size: 12px;

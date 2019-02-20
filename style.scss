@@ -14,6 +14,10 @@ body {
 	h1, h2 {
     font-weight: 400;
 	}
+	.section-title {
+		text-decoration-line: underline;
+		text-decoration-color: pink;
+	}
 	.summary {
 		h1 {
 			color:	#6B5E62;
@@ -36,13 +40,21 @@ body {
 
 	.skills {
 		p {
-			color: red;
+			color: #53b3d7;
 			font-size: 18px;
 		}
 	}
 
 	.experience {
 		padding: 60px;
+		h2 {
+			font-weight: 100;
+			font-size: 18px;
+			font-style: italic;
+		}
+		li {
+			font-size: 18px;
+		}
 	}
 
 	.education {
@@ -59,34 +71,47 @@ body {
 		.date {
 			font-size: 16px;
 		}
+
 		.details {
 			font-size: 1.25em;
 		}
+
 		hr {
 			border-width: 2px;
 		}
-		#paw2paw {
-			#paw2paw-btn {
+
+		#paw2paw, #jungle, #chatty {
+			padding-bottom: 20px;
+		}
+
+		#jungle-img {
+			width: 53%;
+		}
+
+		.project-btn {
+			background-color:  #53b3d7;
+			color:white;
+			width: 220px;
+			height: 40px;
+			border-radius: 5px;
+			margin-bottom: 10px;
+			font-size: 18px;
+		}
+
+		.project-btn:hover {
+			color: #53b3d7;
+			background-color: white;
+		}
+			
+		.project-btn:focus {
+			outline: none;
+		}
+
+		.paw2paw-details, .jungle-details, .chatty-details, .tweeter-details {
+			display: none;
+			width: 50%;
+			.title {
 				color: #53b3d7;
-				width: 220px;
-				height: 40px;
-				border-radius: 5px;
-				margin-bottom: 10px;
-				font-size: 18px;
-			}
-			#paw2paw-btn:hover {
-				background-color:  #53b3d7;
-				color:white;
-			}
-			#paw2paw-btn:focus {
-				outline: none;
-			}
-			.paw2paw-details {
-				display: none;
-				width: 50%;
-				.title {
-					color: #53b3d7;
-				}
 			}
 		}
 	}
@@ -103,7 +128,6 @@ body {
 			}
 		}
 		.contact-info {
-			padding-top: 5px;
 			ol {
 				padding-left: 0;
 				font-size: 18px;
