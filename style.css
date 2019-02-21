@@ -1,6 +1,6 @@
 body {
   padding: 15px;
-  font-family: 'Work Sans', sans-serif; }
+  font-family: 'Raleway', sans-serif; }
   body a {
     color: #53b3d7;
     text-decoration: none; }
@@ -12,13 +12,16 @@ body {
     font-weight: 400; }
   body .section-title {
     text-decoration-line: underline;
-    text-decoration-color: pink; }
+    text-decoration-color: #A7CDBD; }
+  body .summary #logo {
+    width: 10%;
+    margin-left: 45%; }
   body .summary h1 {
     color: #6B5E62;
     padding: 80px 60px;
     text-align: center; }
   body .summary .highlight {
-    color: #EFB2F4; }
+    color: #A7CDBD; }
   body .summary h2 {
     text-align: center;
     padding: 0 120px 150px 120px; }
@@ -26,7 +29,7 @@ body {
     background-color: #fdfafc;
     padding: 60px; }
   body .skills p {
-    color: #53b3d7;
+    color: #869D7A;
     font-size: 18px; }
   body .experience {
     padding: 60px; }
@@ -54,7 +57,7 @@ body {
   body .projects #jungle-img {
     width: 53%; }
   body .projects .project-btn {
-    background-color: #53b3d7;
+    background-color: #6A706E;
     color: white;
     width: 220px;
     height: 40px;
@@ -62,7 +65,7 @@ body {
     margin-bottom: 10px;
     font-size: 18px; }
   body .projects .project-btn:hover {
-    color: #53b3d7;
+    color: #89B6A5;
     background-color: white; }
   body .projects .project-btn:focus {
     outline: none; }
@@ -86,7 +89,7 @@ body {
 
 footer p {
   font-size: 12px;
-  color: #EFB2F4;
+  color: #A7CDBD;
   text-align: center; }
 
 /*# sourceMappingURL=style.css.map */

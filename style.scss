@@ -1,6 +1,6 @@
 body {
 	padding: 15px;
-	font-family: 'Work Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	a {
 		color: #53b3d7;
 		text-decoration: none;
@@ -16,16 +16,20 @@ body {
 	}
 	.section-title {
 		text-decoration-line: underline;
-		text-decoration-color: pink;
+		text-decoration-color: #A7CDBD;
 	}
 	.summary {
+		#logo {
+			width: 10%;
+			margin-left: 45%;
+		}
 		h1 {
 			color:	#6B5E62;
 			padding: 80px 60px;
 			text-align: center;
 		}
 		.highlight {
-			color: #EFB2F4;
+			color: #A7CDBD;
 		}
 		h2 {
 			text-align: center;
@@ -40,7 +44,7 @@ body {
 
 	.skills {
 		p {
-			color: #53b3d7;
+			color: #869D7A;
 			font-size: 18px;
 		}
 	}
@@ -89,7 +93,7 @@ body {
 		}
 
 		.project-btn {
-			background-color:  #53b3d7;
+			background-color:  #6A706E;
 			color:white;
 			width: 220px;
 			height: 40px;
@@ -99,7 +103,7 @@ body {
 		}
 
 		.project-btn:hover {
-			color: #53b3d7;
+			color: #89B6A5;
 			background-color: white;
 		}
 			
@@ -139,7 +143,7 @@ body {
 footer {
 	p {
 		font-size: 12px;
-		color: #EFB2F4;
+		color: #A7CDBD;
 		text-align: center;
 	}
 }
