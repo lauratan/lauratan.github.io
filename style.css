@@ -70,9 +70,22 @@ body {
     font-size: 18px; }
   body .projects .project-btn:hover {
     color: #89B6A5;
-    background-color: white; }
+    background-color: white;
+    border-color: #89B6A5;
+    border-width: 2px; }
   body .projects .project-btn:focus {
     outline: none; }
+  body .projects .bouncy:hover {
+    -moz-animation: bounce 1s infinite;
+    -webkit-animation: bounce 1s infinite;
+    animation: bounce 1s infinite; }
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0); }
+  40% {
+    transform: translateY(-15px); }
+  60% {
+    transform: translateY(-7.5px); } }
   body .projects .paw2paw-details, body .projects .jungle-details, body .projects .chatty-details, body .projects .tweeter-details {
     display: none;
     width: 50%; }
